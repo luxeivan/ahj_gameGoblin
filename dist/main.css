@@ -7,7 +7,7 @@ body {
 }
 ul {
     list-style-type: none;
-    cursor: url(/ahj_moveElem/src/img/hammer.png) 4 1;
+    cursor: url(/ahj_gameGoblin/src/img/hammer.png), pointer;
 }
 
 .container {

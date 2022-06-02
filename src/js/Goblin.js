@@ -1,7 +1,7 @@
 import img from '../img/goblin.png';
 import hammer from '../img/hammer.png';
 
-hammer.lint = 'lint';
+console.log(hammer);
 
 export default class Goblin {
   constructor() {
