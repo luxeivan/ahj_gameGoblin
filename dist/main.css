@@ -1,12 +1,13 @@
 body {
-    color: #999;
     box-sizing: border-box;
 }
-ul{
-    list-style-type: none;
+.title{
+    margin: 0 auto;
+    text-align: center;
 }
-li{
-    
+ul {
+    list-style-type: none;
+    cursor: url(/ahj_moveElem/src/img/hammer.png) 4 1;
 }
 
 .container {
@@ -20,7 +21,8 @@ li{
     width: 400px;
     margin: 0 auto;
 }
-.grid__elem{
+
+.grid__elem {
     width: 98px;
     height: 98px;
     border: 1px solid black;
@@ -28,7 +30,8 @@ li{
     justify-content: center;
     align-items: center;
 }
-.image{
+
+.image {
     display: block;
     width: 100%;
     margin: 0 auto;
