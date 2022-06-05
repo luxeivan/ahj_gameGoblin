@@ -14,7 +14,7 @@ export default class GameController {
       this.points += 1;
       this.renderPoint();
       event.target.remove();
-    } 
+    }
   }
 
   renderPoint() {
